@@ -32,4 +32,4 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("1.0.0.0")>
 <Assembly: AssemblyFileVersion("1.0.0.0")>
-<Assembly: log4net.Config.XmlConfigurator(Watch:=True)>
+<Assembly: log4net.Config.XmlConfigurator(ConfigFile:="Log4net.Config.xml", Watch:=True)>
