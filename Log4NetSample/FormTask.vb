@@ -2,6 +2,8 @@
 
     Private tokenSource As Threading.CancellationTokenSource = Nothing
 
+    Private ReadOnly logger As log4net.ILog = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod.DeclaringType)
+
     Private Class ProgressDto
         Public ReadOnly Property Max As Integer
         Public ReadOnly Property Done As Integer
@@ -105,10 +107,9 @@
     End Sub
 
     Private Sub WriteLog(message As String)
-        'Const format = "{2} Thread:{0},message:{1}"
-        'Dim text = String.Format(format, Threading.Thread.CurrentThread.ManagedThreadId, message, DateTime.Now.ToString("yyyyMMdd HH:mm:ss.fff"))
-        'My.Application.Log.WriteEntry(text)
-        'My.Application.Log.DefaultFileLogWriter.Flush()
+        Const format = "{2} Thread:{0},message:{1}"
+        Dim text = String.Format(format, Threading.Thread.CurrentThread.ManagedThreadId, message, DateTime.Now.ToString("yyyyMMdd HH:mm:ss.fff"))
+        logger.Info(text)
     End Sub
 
 End Class
