@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "dotNetLoggingSample", "dotN
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DefaultLogger", "DefaultLogger\DefaultLogger.vbproj", "{AEDD9145-3660-4AB1-99C3-202C3C3645E3}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Log4NetSample", "Log4NetSample\Log4NetSample.vbproj", "{C343C01D-BBF3-4FC1-8D3B-0A411C285DFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AEDD9145-3660-4AB1-99C3-202C3C3645E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEDD9145-3660-4AB1-99C3-202C3C3645E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEDD9145-3660-4AB1-99C3-202C3C3645E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C343C01D-BBF3-4FC1-8D3B-0A411C285DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C343C01D-BBF3-4FC1-8D3B-0A411C285DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C343C01D-BBF3-4FC1-8D3B-0A411C285DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C343C01D-BBF3-4FC1-8D3B-0A411C285DFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
