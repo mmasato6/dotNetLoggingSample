@@ -23,6 +23,7 @@ namespace NLogNetCoreConsole1
                 {
                     var runner = serviceProvider.GetRequiredService<Runner>();
                     runner.DoAction("Action1");
+                    // throw new Exception("sample exception"); //例外の動作確認用
                     Console.WriteLine("Press ANY key to exit");
                     Console.ReadKey();
                 }
