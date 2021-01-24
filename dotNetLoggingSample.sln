@@ -11,7 +11,9 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Log4NetSample", "Log4NetSam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreConsoleApp1", "NetCoreConsoleApp1\NetCoreConsoleApp1.csproj", "{4E811214-72D2-4D57-9622-40AC66AF5BE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogNetCoreConsole1", "NLogNetCoreConsole1\NLogNetCoreConsole1.csproj", "{B71A5D10-5639-4AC8-B66B-E8079AB57D56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLogNetCoreConsole1", "NLogNetCoreConsole1\NLogNetCoreConsole1.csproj", "{B71A5D10-5639-4AC8-B66B-E8079AB57D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogWpfApp1", "NLogWpfApp1\NLogWpfApp1.csproj", "{2D4000E3-000A-453D-807E-AE9071D9F8F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B71A5D10-5639-4AC8-B66B-E8079AB57D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B71A5D10-5639-4AC8-B66B-E8079AB57D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B71A5D10-5639-4AC8-B66B-E8079AB57D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4000E3-000A-453D-807E-AE9071D9F8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4000E3-000A-453D-807E-AE9071D9F8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4000E3-000A-453D-807E-AE9071D9F8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4000E3-000A-453D-807E-AE9071D9F8F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
